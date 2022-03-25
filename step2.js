@@ -1,17 +1,17 @@
 //1
-let  sumArray = (arr,target) => {
+let  sumArray = (arr,sum) => {
     let ar = []
     arr.forEach((element,index) => {      
       arr.forEach((element2, index2) => {
-              if((index2 > index) && (element + element2 == target)){
-                ar.push({element, element2})             
+              if((index2 > index) && (element + element2 == sum)){
+                ar.push({element, element2, sum})             
               }
           });
       });
       return ar
     }
     
-    //   console.log(sumArray([1, 2, 3, -2, -1],0))
+      console.log(sumArray([1, 2, 3, -2,],0))
 
 //2
 function hasUniqueChars(word) {
@@ -65,4 +65,4 @@ function findLongestWord(array) {
   
   let word = findLongestWord(["hi", "hello"]).length
   // -> 5
-  console.log(word);
+//   console.log(word);
