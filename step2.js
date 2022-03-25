@@ -11,7 +11,7 @@ let  sumArray = (arr,target) => {
       return ar
     }
     
-      console.log(sumArray([1, 2, 3, -2, -1],0))
+    //   console.log(sumArray([1, 2, 3, -2, -1],0))
 
 //2
 function hasUniqueChars(word) {
@@ -63,6 +63,6 @@ function findLongestWord(array) {
     return longestWord;
   }
   
-  let word = findLongestWord(["hi", "hello"])
+  let word = findLongestWord(["hi", "hello"]).length
   // -> 5
-//   console.log(word.length);
+  console.log(word);
