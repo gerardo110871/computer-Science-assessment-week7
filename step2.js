@@ -13,7 +13,7 @@ let  sumArray = (arr,sum) => {
     
       console.log(sumArray([1, 2, 3, -2,],0))
 
-      // time: O(1)
+      // time: O(n2)
 
 //2
 function hasUniqueChars(word) {
