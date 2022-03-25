@@ -13,6 +13,8 @@ let  sumArray = (arr,sum) => {
     
       console.log(sumArray([1, 2, 3, -2,],0))
 
+      // time: 
+
 //2
 function hasUniqueChars(word) {
     let uniqueChars = new Set([])
@@ -21,6 +23,8 @@ function hasUniqueChars(word) {
     }
     return uniqueChars.size === word.length
   }
+    // time: O(n)
+
 
 // console.log(hasUniqueChars("Monday"))
 // -> True
@@ -42,6 +46,8 @@ function isPangram(s) {
    
    return true;
  }
+
+//  time: O(n)
 
 // console.log(isPangram("The quick brown fox jumps over the lazy dog!"))
 // -> True
@@ -66,3 +72,5 @@ function findLongestWord(array) {
   let word = findLongestWord(["hi", "hello"]).length
   // -> 5
 //   console.log(word);
+
+//time: O(n)
