@@ -1,0 +1,14 @@
+            insert      append
+tinyArray   31.8 μs     111.5 μs
+smallArray  45.1 μs     89.6 μs
+mediumArray 184.3 μs    127.3 μs
+largeArray  8.8665 ms   583.8 μs
+exlrgArray  842.5744 ms 2.8809 ms   
+
+    According to the results in the graph, unshift is a lot faster at smaller scales vs push, but
+
+as the array gets bigger the push method is more efficient than the unshift method. This is because
+
+with unshift the array has to re-arrange all the elements by shifting them vs where push is just adding, but
+
+not manipulating the rest of the array.
